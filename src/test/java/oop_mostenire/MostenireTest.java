@@ -22,6 +22,14 @@ public class MostenireTest {
         angajat.marire("engineer");
         angajat.marire(10, "engineer");
 
+        angajat.ajungeLaTimpLaBirou();
+        angajat.respectaConduita();
+        angajat.nuAreAbsente();
+        angajat.munceste();
+
+
+// exemplu restaurant vegan/non vegan
+
 
 
 
@@ -31,10 +39,14 @@ public class MostenireTest {
 //
 //        System.out.println();
 //
-//        Student student = new Student("Tudorescu", "Tudor", 19, "Masculin",
-//                "Campului", "UTCN", "Calculatoare", 4, false, false);
-//        student.infoStudent();
+        Student student = new Student("Tudorescu", "Tudor", 19, "Masculin",
+                "Campului", "UTCN", "Calculatoare", 4, false, false);
+        student.infoStudent();
 
+        student.sanuAibeRestante();
+        student.mergeLaCursuri();
+        student.saStieSaCopieze();
+        student.trebuieSaStudieze();
 
     }
 

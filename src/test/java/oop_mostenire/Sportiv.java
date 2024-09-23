@@ -71,3 +71,5 @@ public class Sportiv extends Persoana{
     }
 }
 
+//tema de continuat interface
+
