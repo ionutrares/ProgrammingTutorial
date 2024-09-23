@@ -17,6 +17,12 @@ public class MostenireTest {
         System.out.println(angajat.getVarsta());
         angajat.mananca();
 
+        angajat.marire();
+        angajat.marire(10);
+        angajat.marire("engineer");
+        angajat.marire(10, "engineer");
+
+
 
 
 //        Sportiv sportiv = new Sportiv("Ionescu", "ion", 16,
