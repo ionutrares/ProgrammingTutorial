@@ -1,6 +1,4 @@
-package oop_mostenire;
-
-import java.sql.SQLOutput;
+package oop_v1;
 
 public class Persoana {
 
