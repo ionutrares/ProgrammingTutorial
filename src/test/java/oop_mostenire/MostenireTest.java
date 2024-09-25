@@ -33,9 +33,15 @@ public class MostenireTest {
 
 
 
-//        Sportiv sportiv = new Sportiv("Ionescu", "ion", 16,
-//                "masculin", "Luduș", "fotbal", true, 2, true, 2);
-//        sportiv.infoSportiv();
+        Sportiv sportiv = new Sportiv("Ionescu", "ion", 16,
+                "masculin", "Luduș", "fotbal", true, 2, true, 2);
+        sportiv.infoSportiv();
+
+        sportiv.grijesteDeEchipament();
+        sportiv.mergeInTurnee();
+        sportiv.nuStaPeBench();
+        sportiv.isiIndeplinesteCota();
+        sportiv.respectaAntrenamente();
 //
 //        System.out.println();
 //
